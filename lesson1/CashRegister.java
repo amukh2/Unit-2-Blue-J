@@ -1,3 +1,5 @@
+package lesson1;
+
 /**
    A cash register totals up sales and computes change due.
 */
