@@ -7,6 +7,7 @@ public class CashRegister
 {
    private double purchase;
    private double payment;
+   private int tillStart;
 
    /**
       Constructs a cash register with no money in it.
@@ -16,6 +17,10 @@ public class CashRegister
       purchase = 0;
       payment = 0;
    }
+   
+   public CashRegister(int initialMoney){
+       tillStart = 100;
+   }
 
    /**
       Records the sale of an item.
@@ -23,7 +28,7 @@ public class CashRegister
    */
    public void recordPurchase(double amount)
    {
-      purchase = 0; //fix this
+      purchase = purchase + amount;
    }
 
    /**
@@ -32,7 +37,7 @@ public class CashRegister
    */
    public void receivePayment(double amount)
    {
-      payment = 0; //fix this
+      payment = payment + amount; 
    }
 
    /**
@@ -41,7 +46,9 @@ public class CashRegister
    */
    public double giveChange()
    {   
-      double change = 0; //fix this
+      double change = payment - purchase;
+      purchase = 0;
+      payment = 0;
       return change;
    }
 }
