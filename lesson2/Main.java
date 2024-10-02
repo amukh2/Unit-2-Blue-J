@@ -14,9 +14,11 @@ public class Main
         // print the object using System.out.println(objectName)
         
         // make a custom cup of coffee
-        
+        Coffee myCup = new Coffee(4,true,"Oat");
+        System.out.println(myCup);
         // make a default cup of coffee
-        
+        Coffee basicCup = new Coffee();
+        System.out.println(basicCup);
         // make a default pinata
         
         // make more pinatas to test all of the constructors you made

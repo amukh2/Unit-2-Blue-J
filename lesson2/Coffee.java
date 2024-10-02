@@ -19,7 +19,9 @@ public class Coffee
     // to a default cup of coffee
     // In the overloaded constructor, set brewStrength to 3, 
     // sugar to true, and milkType to “whole”.
-    
+    public Coffee(){
+        
+    }
     
     // Specialized constructor
     public Coffee(int howStrong, boolean hasSugar, String milk)
