@@ -67,8 +67,10 @@ public class Coins {
     }
 
     public void bankValue(){
-        System.out.println(quarters * 0.25 + dimes * 0.10
-                + nickels * 0.05 + pennies * 0.01);
+        double value = quarters * 0.25 + dimes * 0.10
+                + nickels * 0.05 + pennies * 0.01;
+                System.out.printf("%.2f", value);
+                
     }
 
     public void bankCount(){

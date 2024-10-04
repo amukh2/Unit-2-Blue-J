@@ -3,7 +3,30 @@ package lesson2;
 public class Website
 {
     // Put your code here
+    String domain;
+    String topLevelDomain;
+    int numUsers;
     
+    public Website(){
+        domain = "newWebsite";
+        topLevelDomain = "com";
+        numUsers = 0;
+    
+    }
+    
+    public Website(String domainName, String topDomain){
+        domain = domainName;
+        topLevelDomain = topDomain;
+        numUsers = 0;
+    
+    }
+    
+    public Website(String domainName, String topDomain, int numPeople){
+        domain = domainName;
+        topLevelDomain = topDomain;
+        numUsers = numPeople;
+    
+    }
     
     
     
