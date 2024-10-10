@@ -11,4 +11,24 @@ package lesson2;
 public class Salutations
 {
     // Put your code here
+    String name;
+    public Salutations(String userName){
+        name = userName;
+    }
+    
+    public void addressLetter(){
+        System.out.printf("\nDear %s", name);
+    }
+    
+    public void signLetter(){
+        System.out.printf("\nSincerely \n%s", name);
+    }
+    
+    public void addressMemo(){
+        System.out.printf("\nTo whom it may concern");
+    }
+    
+    public void signMemo(){
+        System.out.printf("\nBest, \n%s", name);
+    }
 }

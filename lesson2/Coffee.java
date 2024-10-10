@@ -20,7 +20,9 @@ public class Coffee
     // In the overloaded constructor, set brewStrength to 3, 
     // sugar to true, and milkType to “whole”.
     public Coffee(){
-        
+        brewStrength = 3;
+        sugar = true;
+        milkType = "whole";
     }
     
     // Specialized constructor

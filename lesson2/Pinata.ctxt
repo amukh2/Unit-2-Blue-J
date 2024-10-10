@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Pinata
+comment1.params=
+comment1.target=Pinata()
+comment2.params=candy1\ color1\ shape1
+comment2.target=Pinata(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=color1\ shape1
+comment3.target=Pinata(java.lang.String,\ java.lang.String)
+comment4.params=candy1
+comment4.target=Pinata(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
